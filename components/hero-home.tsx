@@ -1,5 +1,7 @@
-import VideoThumb from "@/public/images/hero-image-01.jpg";
 import ModalVideo from "@/components/modal-video";
+
+// Drone building cleaning/washing thumbnail
+const DroneCleaningThumb = "https://images.unsplash.com/photo-1508614589041-895b88991e3e?w=1104&h=576&fit=crop&q=80";
 
 export default function HeroHome() {
   return (
@@ -13,7 +15,7 @@ export default function HeroHome() {
               className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,#9bacbc,#cca989,#e8e8e8,#cca989,#9bacbc)] bg-[length:200%_auto] bg-clip-text pb-5 font-tektur text-4xl font-semibold text-transparent md:text-5xl"
               data-aos="fade-up"
             >
-              Drone Based Services
+              Smarter Inspections, Safer Operations
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -21,9 +23,9 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Cutting-edge drone technology solutions for aerial photography,
-                surveying, inspection, and precision services that deliver
-                speed, balance, and accuracy.
+                SRAB delivers advanced drone solutions for construction, facilities management,
+                and smart cities. From facade inspections to thermal imaging, we help you
+                reduce costs, improve safety, and make data-driven decisions.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>
@@ -52,13 +54,12 @@ export default function HeroHome() {
           </div>
 
           <ModalVideo
-            thumb={VideoThumb}
+            thumb={DroneCleaningThumb}
             thumbWidth={1104}
             thumbHeight={576}
-            thumbAlt="SRAB Drone Services"
-            video="videos//video.mp4"
-            videoWidth={1920}
-            videoHeight={1080}
+            thumbAlt="SRAB Drone Building Cleaning"
+            video="https://www.youtube.com/embed/61m0p5rY5P8"
+            isYouTube={true}
           />
         </div>
       </div>

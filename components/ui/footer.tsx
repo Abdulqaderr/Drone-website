@@ -29,7 +29,7 @@ export default function Footer() {
                   className="text-cadet-blue/65 transition hover:text-warm-sand"
                   href="#0"
                 >
-                  Aerial Photography
+                  Facade Inspections
                 </a>
               </li>
               <li>
@@ -37,7 +37,7 @@ export default function Footer() {
                   className="text-cadet-blue/65 transition hover:text-warm-sand"
                   href="#0"
                 >
-                  Land Surveying
+                  Construction Monitoring
                 </a>
               </li>
               <li>
@@ -45,7 +45,7 @@ export default function Footer() {
                   className="text-cadet-blue/65 transition hover:text-warm-sand"
                   href="#0"
                 >
-                  Infrastructure Inspection
+                  Topographic Surveying
                 </a>
               </li>
               <li>
@@ -53,7 +53,7 @@ export default function Footer() {
                   className="text-cadet-blue/65 transition hover:text-warm-sand"
                   href="#0"
                 >
-                  Thermal Imaging
+                  Thermal Inspections
                 </a>
               </li>
               <li>
@@ -61,7 +61,7 @@ export default function Footer() {
                   className="text-cadet-blue/65 transition hover:text-warm-sand"
                   href="#0"
                 >
-                  3D Mapping
+                  3D Modeling & BIM
                 </a>
               </li>
               <li>
@@ -69,7 +69,7 @@ export default function Footer() {
                   className="text-cadet-blue/65 transition hover:text-warm-sand"
                   href="#0"
                 >
-                  Security Monitoring
+                  Roof Inspections
                 </a>
               </li>
             </ul>

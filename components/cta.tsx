@@ -23,7 +23,7 @@ export default function Cta() {
               className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,#9bacbc,#cca989,#e8e8e8,#cca989,#9bacbc)] bg-size-[200%_auto] bg-clip-text pb-8 font-tektur text-3xl font-semibold text-transparent md:text-4xl"
               data-aos="fade-up"
             >
-              Ready to Elevate Your Operations?
+              Transform Your Operations with SRAB
             </h2>
             <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
               <div data-aos="fade-up" data-aos-delay={400}>

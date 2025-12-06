@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Logo from "./logo";
+import LanguageSwitcher from "./language-switcher";
 
 export default function Header() {
   return (
@@ -13,25 +14,25 @@ export default function Header() {
             <Logo />
           </div>
 
-          {/* Desktop sign in links */}
-          <ul className="flex flex-1 items-center justify-end gap-3">
-            <li>
-              <Link
-                href="/signin"
-                className="btn-sm relative bg-linear-to-b from-[#3a4a55] to-[#2b3943]/60 bg-size-[100%_100%] bg-bottom py-[5px] text-cadet-blue before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,#3a4a55,#4a5a65,#3a4a55)_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,linear-gradient(white_0_0)] hover:bg-size-[100%_150%]"
-              >
-                Sign In
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/signup"
-                className="btn-sm bg-linear-to-t from-[#1e2a32] to-charcoal-blue bg-size-[100%_100%] bg-bottom py-[5px] text-warm-sand shadow-[inset_0px_1px_0px_0px_rgba(155,172,188,0.16)] hover:bg-size-[100%_150%]"
-              >
-                Contact Us
-              </Link>
-            </li>
-          </ul>
+          {/* Navigation items */}
+          <div className="flex flex-1 items-center justify-end gap-3">
+            {/* Language Switcher */}
+            <LanguageSwitcher />
+
+            {/* Auth Links */}
+            <Link
+              href="/signin"
+              className="btn-sm relative bg-linear-to-b from-[#3a4a55] to-charcoal-blue/60 bg-size-[100%_100%] bg-bottom py-[5px] text-cadet-blue before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,#3a4a55,#4a5a65,#3a4a55)_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,linear-gradient(white_0_0)] hover:bg-size-[100%_150%]"
+            >
+              Sign In
+            </Link>
+            <Link
+              href="/signup"
+              className="btn-sm bg-linear-to-t from-[#1e2a32] to-charcoal-blue bg-size-[100%_100%] bg-bottom py-[5px] text-warm-sand shadow-[inset_0px_1px_0px_0px_rgba(155,172,188,0.16)] hover:bg-size-[100%_150%]"
+            >
+              Contact Us
+            </Link>
+          </div>
         </div>
       </div>
     </header>

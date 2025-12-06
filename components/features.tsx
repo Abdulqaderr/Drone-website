@@ -40,12 +40,12 @@ export default function Features() {
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,#9bacbc,#cca989,#e8e8e8,#cca989,#9bacbc)] bg-size-[200%_auto] bg-clip-text pb-4 font-tektur text-3xl font-semibold text-transparent md:text-4xl">
-              Professional Drone Solutions
+              Drone Solutions for Every Industry
             </h2>
             <p className="text-lg text-cadet-blue/65">
-              SRAB delivers cutting-edge drone technology for aerial photography,
-              surveying, inspection, and precision services with speed, balance,
-              and accuracy.
+              SRAB provides comprehensive drone services across construction, facilities management,
+              and smart city applications. Our technology delivers actionable insights
+              while reducing risk and operational costs.
             </p>
           </div>
           <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
@@ -73,11 +73,11 @@ export default function Features() {
                 />
               </svg>
               <h3 className="mb-1 font-tektur text-[1rem] font-semibold text-cadet-blue">
-                Aerial Photography
+                Facade Inspections
               </h3>
               <p className="text-cadet-blue/65">
-                Stunning high-resolution aerial imagery for real estate, events,
-                marketing, and creative projects with cinematic quality.
+                Comprehensive building envelope assessments detecting cracks, water damage,
+                and structural issues without scaffolding or rope access.
               </p>
             </article>
             <article>
@@ -91,11 +91,11 @@ export default function Features() {
                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
               </svg>
               <h3 className="mb-1 font-tektur text-[1rem] font-semibold text-cadet-blue">
-                Land Surveying
+                Construction Monitoring
               </h3>
               <p className="text-cadet-blue/65">
-                Precision mapping and topographic surveys for construction,
-                agriculture, and land management with accurate data.
+                Track project progress with regular aerial surveys, compare against BIM models,
+                and generate accurate volumetric measurements.
               </p>
             </article>
             <article>
@@ -112,11 +112,11 @@ export default function Features() {
                 />
               </svg>
               <h3 className="mb-1 font-tektur text-[1rem] font-semibold text-cadet-blue">
-                Infrastructure Inspection
+                Topographic Surveying
               </h3>
               <p className="text-cadet-blue/65">
-                Safe and efficient inspection of buildings, bridges, power lines,
-                and industrial facilities without scaffolding.
+                High-precision aerial mapping for site planning, earthworks calculations,
+                and terrain analysis with centimeter-level accuracy.
               </p>
             </article>
             <article>
@@ -138,11 +138,11 @@ export default function Features() {
                 <path d="m16.321 2-.5-.866 1.733-1 .5.866A22 22 0 0 1 21 12c0 3.852-1.017 7.636-2.948 10.97l-.502.865-1.73-1.003.501-.865A19.878 19.878 0 0 0 19 12a20 20 0 0 0-2.679-10Z" />
               </svg>
               <h3 className="mb-1 font-tektur text-[1rem] font-semibold text-cadet-blue">
-                Thermal Imaging
+                Thermal Inspections
               </h3>
               <p className="text-cadet-blue/65">
-                Advanced thermal scanning for energy audits, search and rescue,
-                and agricultural crop monitoring applications.
+                Detect heat loss, moisture intrusion, and electrical faults with
+                advanced infrared imaging for energy audits and predictive maintenance.
               </p>
             </article>
             <article>
@@ -159,11 +159,11 @@ export default function Features() {
                 <path d="m7.454 2.891.891-.454L7.437.655l-.891.454a12 12 0 0 0 0 21.382l.89.454.91-1.781-.892-.455a10 10 0 0 1 0-17.818ZM17.456 1.11l-.891-.454-.909 1.782.891.454a10 10 0 0 1 0 17.819l-.89.454.908 1.781.89-.454a12 12 0 0 0 0-21.382Z" />
               </svg>
               <h3 className="mb-1 font-tektur text-[1rem] font-semibold text-cadet-blue">
-                3D Mapping
+                3D Modeling & BIM
               </h3>
               <p className="text-cadet-blue/65">
-                Create detailed 3D models and orthomosaic maps for urban planning,
-                archaeology, and construction progress tracking.
+                Generate photorealistic 3D models and digital twins for asset management,
+                renovation planning, and stakeholder presentations.
               </p>
             </article>
             <article>
@@ -180,11 +180,11 @@ export default function Features() {
                 <path d="M19.406 3.844 6.083 20.497.586 15 2 13.586l3.917 3.917L17.844 2.595l1.562 1.25Z" />
               </svg>
               <h3 className="mb-1 font-tektur text-[1rem] font-semibold text-cadet-blue">
-                Security & Monitoring
+                Roof & Asset Inspections
               </h3>
               <p className="text-cadet-blue/65">
-                Real-time surveillance and monitoring for events, construction sites,
-                and large-scale property management.
+                Detailed condition assessments of rooftops, solar panels, HVAC systems,
+                and other building assets with comprehensive reporting.
               </p>
             </article>
           </div>
