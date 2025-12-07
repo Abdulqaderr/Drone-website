@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import QRCode from "@/components/qr-code";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -134,7 +135,11 @@ export default function Contact() {
                 ))}
               </div>
             </div>
+
+            {/* QR Code */}
+            
           </div>
+        
 
           {/* Contact form */}
           <div data-aos="fade-left">
@@ -234,6 +239,10 @@ export default function Contact() {
             </form>
           </div>
         </div>
+            <div className= " flex flex-col items-center justify-center mt-8 pt-8 border-t border-[#3a4a55]/50">
+              <h3 className="font-tektur text-lg font-semibold text-[#9bacbc] mb-5">Visit Our Websit(For Testing Purposes)</h3>
+              <QRCode />
+            </div>
       </div>
     </section>
   );

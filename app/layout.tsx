@@ -45,8 +45,11 @@ const nacelle = localFont({
 });
 
 export const metadata = {
-  title: "SRAB - Drone Based Services",
+  title: "Drone Based Services",
   description: "Professional drone services for aerial photography, surveying, inspection, and more. Cutting-edge drone technology solutions.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({

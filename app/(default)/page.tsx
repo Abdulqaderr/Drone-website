@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "SRAB - Drone Based Services",
+  title: "Drone Based Services",
   description: "Professional drone services for aerial photography, surveying, inspection, and more. Safe, accurate inspections in the harshest environments.",
 };
 
